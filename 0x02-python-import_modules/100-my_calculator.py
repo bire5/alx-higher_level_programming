@@ -9,7 +9,7 @@ if __name__ == '__main__':
     from calculator_1 import add, sub, mul, div
     a = int(args_list[0])
     b = int(args_list[2])
-    if args_list[1] == '+':     
+    ist[1] == '+':     
         print("{} + {} = {}".format(a, b, add(a, b)))
     elif args_list[1] == '-':
         print("{} - {} = {}".format(a, b, sub(a, b)))
