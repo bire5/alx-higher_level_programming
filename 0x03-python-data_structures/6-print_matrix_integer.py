@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-#File: 6-print_matrix-integer.py
-
 def print_matrix_integer(matrix=[[]]):
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
