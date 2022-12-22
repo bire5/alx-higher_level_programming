@@ -68,4 +68,4 @@ and public instance methods to calculate area and print square."""
                     print("#", end="")
                 print()
         else:
-           print()
+            print()
