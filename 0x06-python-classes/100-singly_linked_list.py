@@ -76,4 +76,4 @@ class SinglyLinkedList:
         return strrep
 
     def __repr__(self):
-        return(self.stringrep(
+        return(self.stringrep())
