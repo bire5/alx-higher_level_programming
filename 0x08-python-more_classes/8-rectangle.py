@@ -3,9 +3,7 @@
 """creates class Rectangle"""
 
 
-
 class Rectangle:
-
     """defines class Rectangle with private instance attributes width/height
 public instance methods to return the rectangle area and primeter
 public class attributes to track of number of instances and print symbol
@@ -16,6 +14,7 @@ static method to compare and return the largest rectangle based on area"""
 
     number_of_instances = 0
     print_symbol = '#'
+
     def __init__(self, width=0, height=0):
 
         """instantiates class instance with optional width/height attributes"""
