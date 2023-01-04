@@ -9,7 +9,7 @@ public instance methods to return the rectangle area and primeter
 can print the rectangle using '#' with print() or str()
 eturns representation of the rectangle to be used by eval()"""
 
-  def __init__(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         """instantiates class instance with optional width/height attributes"""
         self.width = width
         self.height = height
